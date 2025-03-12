@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #0066ff;
+}
+
+.view-toggle {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.toggle-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid #0066ff;
+  background-color: white;
+  color: #0066ff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.toggle-btn:hover {
+  background-color: #e6f0ff;
+}
+
+.toggle-btn.active {
+  background-color: #0066ff;
+  color: white;
+} 
