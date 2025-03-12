@@ -47,6 +47,19 @@ src/
    ```
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
+### Generating the Starter Code
+
+If you want to generate this project from scratch, you can use the starter prompt:
+
+1. Create a new directory for your project
+2. Copy the `starter-prompt.md` file into your project directory
+3. Use an AI assistant (like Cursor) with the following prompt:
+   ```
+   Please generate the starter files and update the project files based on the project description in starter-prompt.md
+   ```
+4. The AI will scaffold the entire project structure with all necessary files
+5. Install dependencies and start the development server as described above
+
 ## Usage
 
 1. Toggle between "Host" and "Guest" views using the buttons in the header
@@ -54,11 +67,25 @@ src/
 3. Switch to Guest view to see the available slots
 4. Click on an available slot to simulate booking
 
+## Project Rules and Guidelines
+
+This project follows a set of rules and guidelines to ensure consistent code quality and maintainability. These rules are defined in the `.cursor/rules` directory and include:
+
+- General coding standards
+- Component structure and naming conventions
+- TypeScript and Zod usage
+- Styling guidelines
+- Documentation requirements
+- Testing best practices
+
+For AI assistants working with this codebase, these rules provide context on how to maintain and extend the project according to established patterns.
+
 ## Documentation
 
 - See `prd.md` for detailed product requirements
 - See `todo.md` for project progress and tasks
 - See `changelog.md` for version history
+- See `.cursor/rules` for project rules and guidelines
 
 ## Available Scripts
 
